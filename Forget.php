@@ -1,0 +1,50 @@
+
+<h1> Forget Password</h1>
+
+<form id="form2" method="post" action="ForPass.php">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td align="left" valign="middle">Select User:</td>
+                      <td><p>
+                        <label>
+                          <input type="radio" name="rdUser" value="Employer" id="rdUser_0" />
+                          Employer</label>
+                        <br/>
+                        <label>
+                          <input type="radio" name="rdUser" value="JobSeeker" id="rdUser_1" />
+                          JobSeeker
+                        </label>
+                        <br />
+                      </p></td>
+                    </tr>
+                    <tr>
+                      <td>User Name:</td>
+                    <td><span id="sprytextfield3">
+                        <label>
+                        <input type="text" name="txtUserName" id="txtUserName" />
+                        </label>
+                    </tr>
+                    <tr>
+                      <td>Security Question:</td>
+                      <td><select name="cmbQue" id="cmbQue">
+                        <option selected="selected">What is Your Pet Name?</option>
+                        <option>Who is Your Favourite Person?</option>
+                        <option>What is the Name of Your First School?</option>
+                      </select></td>
+                    </tr>
+                    <tr>
+                      <td>Answer:</td>
+                      <td><span id="sprytextfield4">
+                        <label>
+                        <input type="text" name="txtAnswer" id="txtAnswer" />
+                        </label>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                      <td><label>
+                        <input type="submit" name="button2" id="button2" value="Submit" />
+                      </label></td>
+                    </tr>
+                  </table>
+              </form>
+ 
